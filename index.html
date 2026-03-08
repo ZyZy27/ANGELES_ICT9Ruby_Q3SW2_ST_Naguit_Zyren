@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Jaro' rel='stylesheet'>
+    <title>Q3 Skills Test</title>
+    <style>
+        body{
+            height: 2000px;
+            background-color: brown;
+        }
+        .tab{
+            position: sticky;
+            top: 10px;
+            z-index: 2;
+        }
+        .ig {
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .ig label {
+            display: block;
+            margin-bottom: 5px;
+            color: rgb(82, 19, 19);
+        }   
+
+        .ig input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 100%; height: 150px ;  background-image: url('jjj.jpg') ; background-position: center; background-repeat: no-repeat; background-size: cover; margin-bottom: 30px ; border-radius: 10px; border-bottom: 5px solid  rgb(90, 22, 22) ; "></div>
+
+    <div class="tab" style="width: 90%; height: 130px; float: top; background-color: rgb(255, 215, 164) ; border-radius: 20px; margin: auto; border: 5px solid rgb(90, 22, 22); align-items: center;">
+        <h1 style="font-family: 'Jaro'; font-size: 100px; position: relative; bottom: 70px; left: 20px; color: brown">SLICE SEEK</h1>
+        <div style="position: relative; right:100px ;">
+            <img src="AC.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 20px;">
+            <img src="AA.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 30px;">
+            <img src="OO.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 40px;">
+        </div>
+    </div>
+
+    <div class="F" style="background-color: rgba(209, 177, 139, 0.85); width: 90%; height: 1380px; margin: 20px; border-radius: 20px; top: 90px; position: relative; padding: 20px; margin: auto;">
+        <div style="background-color: rgba(206, 176, 140, 0.756); width: 50%; height: 1300px; text-align: center; font-size: 40px; font-family: 'Jaro'; border-radius: 20px; border: 10px solid brown; ">
+            <h2>REGISTRATION</h2>
+            <form id="lg" action="sw2.html" method="GET"> 
+                <div class="ig">
+                    <label for="FN"><b>First Name:</b></label>
+                    <input type="text" id="FN" name="f1" placeholder="Enter Your First Name" required>
+                </div>
+                <div class="ig">
+                    <label for="LN"><b>Last Name:</b></label>
+                    <input type="text" id="LN" name="f2" placeholder="Enter Your Last Name" required>
+                </div>
+                <div class="ig" style="width: 100px; float: left;">
+                    <label for="AGE"><b>AGE:</b></label>
+                    <input type="number" id="AGE" name="f3" min="1" max="100" required>
+                </div>
+                <div class="ig" style="width: 500px; float: left;">
+                    <label for="CN"><b>CONTACT NUMBER:</b></label>
+                    <input type="number" id="CN" name="f4" placeholder="123-456-7890" required>
+                </div>
+                <div class="ig">
+                    <label for="EM"><b>Email:</b></label>
+                    <input type="email" id="EM" name="f5" placeholder="Enter Your Email" required>
+                </div>
+                <div class="ig">
+                    <label for="UN"><b>Username:</b></label>
+                    <input type="text" id="UN" name="f6" placeholder="Enter Your Username" required>
+                </div>
+                <div class="ig">
+                    <label for="PS"><b>Password:</b></label>
+                    <input type="password" id="PS" name="f7" placeholder="Enter Your Password" required>
+                </div>
+                <input type="radio" name="terms" value="accepted" required>
+                <label>I accept the <a href="https://policies.google.com/terms?hl=en-US">Terms and Private Policies</a></label>
+                
+                <button type="submit" style="width: 70%; font-size: 40px; font-family: 'Jaro' ; border: 10px burlywood solid ; background-color: brown; color: bisque; margin: 10px; border-radius: 20px; position: relative; top: 50px;"><b>CREATE ACCOUNT</b></button>
+                
+                <button type="reset" style="width: 70%; font-size: 40px; font-family: 'Jaro' ; border: 10px BROWN solid ; background-color: burlywood; color: brown; margin: 10px; border-radius: 20px; position: relative; top: 50px;"><b>CANCEL</b></button>
+            </form>
+        </div>
+        <div style="background-color: rgba(233, 206, 173, 0.756); width: 40%; height: 350px; text-align: center; font-size: 40px; font-family: 'Jaro'; border-radius: 20px; border: 10px solid brown; float: right; position: relative; bottom: 1300px;">
+            <h3>-Instructions-</h3>
+            <p style="font-family: 'Courier New', Courier, monospace; font-size: 30px;">Please fill out this form with accurate information. Once completed, review your details and click submit.</p>
+        </div>
+
+        <div style="background-color: rgba(164, 133, 94, 0.756); width: 40%; height: 880px; text-align: center; font-size: 40px; font-family: 'Jaro'; border-radius: 20px; border: 10px solid brown; float: right; position: relative; bottom: 900px; left: 540px;">
+            <h3>-PROFILE PICTURE-</h3>
+            <img style="height: 300px; width: auto; border-radius: 50%; object-fit: cover;" src="PD.png" id="plp">
+            <label for="pp" style="display: block; font-size: 20px; margin: 10px auto; padding: 12px; width: 200px; background-color: brown; color: bisque; border-radius: 20px;">Update Profile Pic</label>      
+            <input id="pp" type="file" accept="image/jpeg, image/png, image/jpg" style="display: none;">  
+        </div>
+        
+    </div>
+
+    <div class="foot" style="width: 95%; height: 640px; background-color:  rgb(255, 215, 164) ; position: relative; top: 170px; border-top: 10px solid rgb(107, 17, 17); border-bottom: 10px solid rgb(107, 17, 17); border-radius: 20px; margin: 20px; margin: auto;">
+        <p style="color: brown; font-family: 'Jaro'; position: relative; top: 230px; left: 280px; width: 250px;">Your guide to the PERFECT SLICE!</p>
+        <h3 style="height: 200px; color: brown; font-size: 200px; width: 1000px; text-align: center; margin: auto; position: relative; bottom: 600px; font-family: 'Jaro'; right: 10px; display: flex; left: 80px;">SLICESEEK</h3>
+        <div style="position: relative; bottom: 300px;">
+            <img src="AC.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 20px;">
+            <img src="AA.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 30px;">
+            <img src="OO.png" style="height: 70px; width: auto; float: right; position: relative; bottom: 230px; right: 40px;">
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
